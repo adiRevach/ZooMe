@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "501390038010",
+    "firebase_url": "https://zoome-93a14-default-rtdb.firebaseio.com",
+    "project_id": "zoome-93a14",
+    "storage_bucket": "zoome-93a14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501390038010:android:ffa9f459ddcea1c47dca43",
+        "android_client_info": {
+          "package_name": "com.afeka.ZooMe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501390038010-o0pg6b9470mimivd5gske9r0fnn8efc2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.afeka.ZooMe",
+            "certificate_hash": "729d78415ac4fc9bba20afdf5c0eb28f72eec481"
+          }
+        },
+        {
+          "client_id": "501390038010-pvao2gu2ssmtromcpbgride13eubs1mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFCFZS-EX1A_Ou3AyxeiR6Id9Sp9w-Lio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501390038010-pvao2gu2ssmtromcpbgride13eubs1mb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

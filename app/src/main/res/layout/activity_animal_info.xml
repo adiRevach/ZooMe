@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimalInfo"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.ZooMe.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.ZooMe.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView
+        android:id="@+id/animalTitle"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:paddingTop="12dp"
+        android:paddingRight="10dp"
+        android:text="קיפוד"
+        android:textColor="#2AAA8A"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/animalDescription"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#000000"
+        android:text="קיפודיים (שם מדעי: Erinaceidae) היא משפחה מסדרת אוכלי החרקים במחלקת היונקים, ובעבר נחשבה לסדרה עצמאית. הקיפודיים האמיתיים פעילים רק בשעות הלילה, מספר מינים מקיימים תרדמת חורף. הם הטרותרמיים, כלומר מורידים את טמפרטורת גופם בשעת מנוחה, אך בעיקרון הם בעלי דם חם. הקיפודיים השעירים פעילים אף בשעות היום. הקיפודיים מנהלים את חייהם על פני האדמה, אך ניתן לראותם מטפסים ושוחים בהצלחה יתרה."
+        android:textSize="17dp"
+        />
+    <TextView
+        android:id="@+id/animalDidYouKnow"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#000000"
+        android:text="קיפודיים (שם מדעי: Erinaceidae) היא משפחה מסדרת אוכלי החרקים במחלקת היונקים, ובעבר נחשבה לסדרה עצמאית. הקיפודיים האמיתיים פעילים רק בשעות הלילה, מספר מינים מקיימים תרדמת חורף. הם הטרותרמיים, כלומר מורידים את טמפרטורת גופם בשעת מנוחה, אך בעיקרון הם בעלי דם חם. הקיפודיים השעירים פעילים אף בשעות היום. הקיפודיים מנהלים את חייהם על פני האדמה, אך ניתן לראותם מטפסים ושוחים בהצלחה יתרה."
+        android:textSize="17dp"
+        />
+
+    <ImageView
+        android:id="@+id/animalPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:src="@drawable/kipod" />
+
+
+
+
+</LinearLayout>
